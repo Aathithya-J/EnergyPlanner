@@ -13,6 +13,7 @@
 		5D7FEF74298DE47800BDE60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7FEF73298DE47800BDE60A /* Preview Assets.xcassets */; };
 		5D7FEF7B298DE4F400BDE60A /* EnergyCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FEF7A298DE4F300BDE60A /* EnergyCompare.swift */; };
 		5D7FEF7D298DE61100BDE60A /* EnergyCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7FEF7C298DE61100BDE60A /* EnergyCal.swift */; };
+		5DC9DD28298F733500D1D594 /* EnergyGrapher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9DD27298F733500D1D594 /* EnergyGrapher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5D7FEF73298DE47800BDE60A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D7FEF7A298DE4F300BDE60A /* EnergyCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCompare.swift; sourceTree = "<group>"; };
 		5D7FEF7C298DE61100BDE60A /* EnergyCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCal.swift; sourceTree = "<group>"; };
+		5DC9DD27298F733500D1D594 /* EnergyGrapher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyGrapher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		5D7FEF6B298DE47600BDE60A /* Energy Planner */ = {
 			isa = PBXGroup;
 			children = (
+				5DC9DD27298F733500D1D594 /* EnergyGrapher.swift */,
 				5D7FEF6C298DE47600BDE60A /* Energy_PlannerApp.swift */,
 				5D7FEF6E298DE47600BDE60A /* ContentView.swift */,
 				5D7FEF7A298DE4F300BDE60A /* EnergyCompare.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				5D7FEF7D298DE61100BDE60A /* EnergyCal.swift in Sources */,
 				5D7FEF7B298DE4F400BDE60A /* EnergyCompare.swift in Sources */,
+				5DC9DD28298F733500D1D594 /* EnergyGrapher.swift in Sources */,
 				5D7FEF6F298DE47600BDE60A /* ContentView.swift in Sources */,
 				5D7FEF6D298DE47600BDE60A /* Energy_PlannerApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Energy Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -287,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ.Energy-Planner";
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.Energy-Planner-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Energy Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ.Energy-Planner";
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.Energy-Planner-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
